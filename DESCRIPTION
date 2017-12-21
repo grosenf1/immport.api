@@ -1,0 +1,15 @@
+Package: immport.api
+Type: Package
+Title: R wrapper for ImmPort Data Query API
+Version: 0.1.0
+Date: 10/23/2017
+Author: Gabriel Rosenfeld
+Maintainer: Gabriel Rosenfeld <gabriel.e.rosenfeld@gmail.com>
+Depends: R (>= 3.4), RCurl, jsonlite, httr, tidyverse, magrittr, rvest, assertthat
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+Description: This package serves as an R wrapper for the ImmPort Data Query API.  The ImmPort Data Query API is a way to query the metadata and data in the ImmPort repository, a collection of Immunology data coming from clinical trials and research networks funded by the Division of Allergy, Immunology, and Transplantation of the National Institutes of Allergy and Infectious Diseases.
+License: ImmPort User Agreement Limited License (http://www.immport.org/agreement)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
